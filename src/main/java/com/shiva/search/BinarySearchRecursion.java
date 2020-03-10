@@ -1,6 +1,6 @@
 package com.shiva.search;
 
-public class BinarySearch {
+public class BinarySearchRecursion {
     public static void main(String[] args) {
         int[] arr = {1, 4, 5, 10, 33, 45, 65, 75, 79, 80, 94, 99};
         int n = 79;
