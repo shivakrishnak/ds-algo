@@ -15,7 +15,7 @@ public class ClimbingStairsMemoization {
 		int one = 1;
 		int two = 1;
 		int total = 0;
-		for (int i = 2; i < n; i++) {
+		for (int i = 2; i <= n; i++) {
 			total = one + two;
 			one = two;
 			two = total;
