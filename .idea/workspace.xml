@@ -2,13 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eccb881-b3e3-4932-b37b-cce26c5711f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/basic/AVeryBigSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basic/PlusMinus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basic/Staircase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiva/learn/recursion/HeadRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiva/learn/recursion/IndirectRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiva/learn/recursion/NestedRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiva/learn/recursion/TailRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shiva/learn/recursion/TreeRecursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basic/DiagonalDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic/DiagonalDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/basic/AVeryBigSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/basic/AVeryBigSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/basic/ComparetheTriplets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/basic/ComparetheTriplets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/basic/DiagonalDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/basic/DiagonalDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/basic/PlusMinus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/basic/PlusMinus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/basic/SimpleArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/basic/SimpleArraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/basic/SolveMeFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/basic/SolveMeFirst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/basic/Staircase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/basic/Staircase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/basic/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/basic/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/basic/arrays/ArrayLeftRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/arrays/ArrayLeftRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/dynamic/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/dynamic/TrappingRainWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/hr/CountingValleys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/hr/CountingValleys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/hr/GradingStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/hr/GradingStudents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/hr/JumpingOnClouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/hr/JumpingOnClouds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/hr/RepeatedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/hr/RepeatedString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/hr/SockMerchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/hr/SockMerchant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/BuddyStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/BuddyStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/ExcelSheetColumnTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/ExcelSheetColumnTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/LongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/LongestSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/MedianSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/MedianSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/NonDecreasingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/NonDecreasingArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/ReverseInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/ThirdMaximumNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/ThirdMaximumNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/recursion/ClimbingStairsMemoization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/recursion/ClimbingStairsMemoization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/recursion/FibonacciMemoization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/recursion/FibonacciMemoization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/recursion/LinkedListSwapNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/recursion/LinkedListSwapNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/recursion/PascalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/recursion/PascalTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/recursion/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/recursion/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/recursion/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/recursion/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/recursion/ReverseStringWithNoExtraMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/recursion/ReverseStringWithNoExtraMemory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/recursion/ReverseStringWithNoExtraMemoryRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/recursion/ReverseStringWithNoExtraMemoryRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/leet/recursion/SearchInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/leet/recursion/SearchInBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/random/CalculateCombinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/random/CalculateCombinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/random/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/random/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/search/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/search/BinarySearchRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/search/BinarySearchRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/search/ExponentialSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/search/ExponentialSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/search/FibonacciSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/search/FibonacciSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/search/InterpolationSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/search/InterpolationSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/search/JumpSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/search/JumpSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/search/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/search/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/search/LinearSearchRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/search/LinearSearchRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/sorting/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shiva/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shiva/problems/sorting/SelectionSort.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,12 +75,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -44,36 +85,35 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="basic" />
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shiva.learn.recursion" />
+      <recent name="com.shiva.recursion" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Staircase">
-    <configuration name="BinarySearch (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="search.BinarySearch" />
+  <component name="RunManager" selected="Application.NestedRecursion">
+    <configuration name="HeadRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shiva.recursion.HeadRecursion" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="search.*" />
+          <option name="PATTERN" value="com.shiva.learn.recursion.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.SimpleArraySum" />
+    <configuration name="IndirectRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shiva.learn.recursion.recursion.IndirectRecursion" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="com.shiva.learn.recursion.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,19 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolveMeFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.SolveMeFirst" />
-      <module name="algorithms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Staircase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.Staircase" />
+    <configuration name="NestedRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shiva.learn.recursion.NestedRecursion" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="com.shiva.learn.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +147,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.Test" />
+    <configuration name="TailRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shiva.learn.recursion.recursion.TailRecursion" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="com.shiva.learn.recursion.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shiva.learn.recursion.recursion.TreeRecursion" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shiva.learn.recursion.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Staircase" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.SimpleArraySum" />
-        <item itemvalue="Application.SolveMeFirst" />
-        <item itemvalue="Application.BinarySearch (1)" />
+        <item itemvalue="Application.NestedRecursion" />
+        <item itemvalue="Application.IndirectRecursion" />
+        <item itemvalue="Application.TreeRecursion" />
+        <item itemvalue="Application.TailRecursion" />
+        <item itemvalue="Application.HeadRecursion" />
       </list>
     </recent_temporary>
   </component>
@@ -155,13 +201,42 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1478" height="174" key="GridCell.Tab.0.bottom" timestamp="1594829657412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="174" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594829657412" />
+    <state width="1478" height="174" key="GridCell.Tab.0.center" timestamp="1594829657412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="174" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594829657412" />
+    <state width="1478" height="174" key="GridCell.Tab.0.left" timestamp="1594829657412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="174" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594829657412" />
+    <state width="1478" height="174" key="GridCell.Tab.0.right" timestamp="1594829657412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="174" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594829657412" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1594827180857">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594827180857" />
+    <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594827376545">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1594827376545" />
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1594828276549">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1594828276549" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
