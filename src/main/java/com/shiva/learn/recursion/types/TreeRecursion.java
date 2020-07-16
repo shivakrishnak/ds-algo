@@ -1,15 +1,16 @@
-package com.shiva.learn.recursion;
+package com.shiva.learn.recursion.types;
 
-public class HeadRecursion {
+public class TreeRecursion {
     public static void main(String[] args) {
-        int number = 4;
+        int number = 3;
         recursion(number);
     }
 
     private static void recursion(int number) {
         if (number > 0) {
-            recursion(number - 1);
             System.out.println(number);
+            recursion(number - 1);
+            recursion(number - 1);
         }
     }
 }

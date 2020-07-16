@@ -1,4 +1,4 @@
-package com.shiva.learn.recursion;
+package com.shiva.learn.recursion.types;
 
 public class IndirectRecursion {
     public static void main(String[] args) {
