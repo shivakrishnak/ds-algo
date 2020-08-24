@@ -1,4 +1,4 @@
-package com.shiva.problems.leet;
+package com.shiva.leet;
 public class ExcelSheetColumnTitle {
     public String convertToTitle(int n) {
     	String res = "";

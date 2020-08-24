@@ -1,4 +1,4 @@
-package com.shiva.problems;
+package com.shiva.leet;
 
 class CountPrimes {
 

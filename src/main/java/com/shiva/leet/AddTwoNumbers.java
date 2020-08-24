@@ -1,4 +1,4 @@
-package com.shiva.problems.leet;
+package com.shiva.leet;
 
 //https://leetcode.com/problems/add-two-numbers/
 public class AddTwoNumbers {
@@ -17,7 +17,7 @@ public class AddTwoNumbers {
 //	Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 //	Output: 7 -> 0 -> 8
 //	Explanation: 342 + 465 = 807
-	
+
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		ListNode prev = new ListNode(0);
 		ListNode head = prev;
@@ -29,13 +29,13 @@ public class AddTwoNumbers {
 			carry = sum / 10;
 			prev.next = curr;
 			prev = curr;
-			
+
 			l1 = l1 == null ? l1 : l1.next;
 			l2 = l2 == null ? l2 : l2.next;
 		}
 		return head.next;
 	}
-//	
+//
 //	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 //		int first = 0, second = 0;
 //		int sum =0 ;

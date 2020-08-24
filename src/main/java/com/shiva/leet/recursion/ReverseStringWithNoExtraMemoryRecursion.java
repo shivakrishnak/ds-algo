@@ -1,4 +1,4 @@
-package com.shiva.problems.leet.recursion;
+package com.shiva.leet.recursion;
 
 public class ReverseStringWithNoExtraMemoryRecursion {
 

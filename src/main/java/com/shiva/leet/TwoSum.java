@@ -1,4 +1,4 @@
-package com.shiva.problems.leet;
+package com.shiva.leet;
 
 import java.util.HashMap;
 import java.util.Map;

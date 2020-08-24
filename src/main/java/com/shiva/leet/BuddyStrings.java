@@ -1,4 +1,4 @@
-package com.shiva.problems.leet;
+package com.shiva.leet;
 
 import java.util.ArrayList;
 import java.util.HashSet;

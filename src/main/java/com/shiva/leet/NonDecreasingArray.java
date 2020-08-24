@@ -1,4 +1,4 @@
-package com.shiva.problems.leet;
+package com.shiva.leet;
 
 //https://leetcode.com/problems/non-decreasing-array/
 public class NonDecreasingArray {

@@ -1,4 +1,4 @@
-package com.shiva.problems.leet;
+package com.shiva.leet;
 
 public class ThirdMaximumNumber {
 	public static void main(String[] args) {

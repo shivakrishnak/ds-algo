@@ -1,4 +1,4 @@
-package com.shiva.problems.leet.recursion;
+package com.shiva.leet.recursion;
 
 //Fibonacci Sequence = 1,1,2,3,5,8,13..
 public class ClimbingStairsMemoization {
