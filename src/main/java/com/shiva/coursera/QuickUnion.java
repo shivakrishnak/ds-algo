@@ -1,10 +1,10 @@
-package com.shiva.coursera.week1;
+package com.shiva.coursera;
 
-public class QuickFind {
+public class QuickUnion {
 
 	private int[] arr;
 
-	public QuickFind(int n) {
+	public QuickUnion(int n) {
 		arr = new int[n];
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = i;
@@ -12,7 +12,7 @@ public class QuickFind {
 	}
 
 	public static void main(String[] args) {
-		QuickFind qf = new QuickFind(10);
+		QuickUnion qf = new QuickUnion(10);
 		qf.print();
 		qf.union(3, 4);
 		qf.print();
@@ -27,18 +27,19 @@ public class QuickFind {
 		System.out.println(qf.connected(6, 5));
 	}
 
+	public int root(int r) {
+		while(arr[r] != r)
+			r = arr[r];
+		return r;
+	}
 	private boolean connected(int i, int j) {
-		return arr[i] == arr[j];
+		return root(i) == root(j);
 	}
 
 	private void union(int p, int q) {
-		int pid = arr[p];
-		int qid = arr[q];
-		for (int i = 0; i < arr.length; i++) {
-			if (arr[i] == pid) {
-				arr[i] = qid;
-			}
-		}
+		int pid = root(p);
+		int qid = root(q);
+		arr[pid] = qid;
 	}
 
 	public void print() {

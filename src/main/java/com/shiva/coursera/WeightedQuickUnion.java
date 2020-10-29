@@ -1,4 +1,4 @@
-package com.shiva.coursera.week1;
+package com.shiva.coursera;
 
 public class WeightedQuickUnion {
 
