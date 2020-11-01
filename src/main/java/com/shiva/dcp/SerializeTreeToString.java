@@ -15,7 +15,7 @@ public class SerializeTreeToString {
         Node node = new Node("1", new Node("2", new Node("3"), new Node("4")), new Node("5", new Node("6"), new Node("7")));
 
         System.out.println(node);
-        serialize(node);
+        System.out.println(serialize(node));
         System.out.println(deserialize(serialize(node)));
 
         /*
@@ -50,7 +50,6 @@ public class SerializeTreeToString {
     private static String serialize(Node node) {
         StringBuilder sb = new StringBuilder();
         serial(node, sb);
-        System.out.println(sb);
         return sb.toString();
     }
 
