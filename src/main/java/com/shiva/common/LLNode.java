@@ -1,14 +1,14 @@
 package com.shiva.common;
 
-public class LLNode {
-    public int value;
+public class LLNode<T extends Comparable<T>> {
+    public T value;
     public LLNode next;
 
-    public LLNode(int value) {
+    public LLNode(T value) {
         this.value = value;
     }
 
-    public LLNode(int value, LLNode next) {
+    public LLNode(T value, LLNode next) {
         this.value = value;
         this.next = next;
     }
