@@ -7,22 +7,22 @@ public class KthToLastNodeLinkedList {
         LLNode root = new LLNode(1, new LLNode(2, new LLNode(3, new LLNode(4, new LLNode(5)))));
         traverse(root);
         brute(root, 2);
-        find(root, 2);
+        System.out.println(find(root, 2).value);
     }
 
-    private static void find(LLNode root, int k) {
+    private static LLNode find(LLNode root, int k) {
         LLNode fast = root;
         LLNode slow = root;
 
         for (int i = 1; i < k + 1; i++) {
             fast = fast.next;
         }
-        System.out.println(fast.value);
+        //System.out.println(fast.value);
         while (fast != null) {
             fast = fast.next;
             slow = slow.next;
         }
-        System.out.println(slow.value);
+        return slow;
     }
 
     private static void brute(LLNode root, int k) {
