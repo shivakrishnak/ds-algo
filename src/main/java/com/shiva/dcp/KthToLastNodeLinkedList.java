@@ -4,7 +4,7 @@ import com.shiva.common.LLNode;
 
 public class KthToLastNodeLinkedList {
     public static void main(String[] args) {
-        LLNode root = new LLNode(1, new LLNode(2, new LLNode(3, new LLNode(4, new LLNode(5)))));
+        LLNode root = new LLNode(1, new LLNode(2, new LLNode(3, new LLNode(4, new LLNode(5, new LLNode(6))))));
         traverse(root);
         brute(root, 2);
         System.out.println(find(root, 2).value);
@@ -15,10 +15,12 @@ public class KthToLastNodeLinkedList {
         LLNode slow = root;
 
         for (int i = 1; i < k + 1; i++) {
+            System.out.println(":" + fast.value);
             fast = fast.next;
         }
         //System.out.println(fast.value);
         while (fast != null) {
+            System.out.println(fast.value + " - " + slow.value);
             fast = fast.next;
             slow = slow.next;
         }
