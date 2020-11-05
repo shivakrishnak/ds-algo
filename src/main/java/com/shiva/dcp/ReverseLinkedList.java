@@ -13,7 +13,7 @@ public class ReverseLinkedList {
         reverse(root);
     }
 
-    private static void reverse(LLNode root) {
+    private static LLNode reverse(LLNode root) {
         LLNode current = root;
         LLNode previous = null;
         LLNode next = null;
@@ -28,6 +28,7 @@ public class ReverseLinkedList {
             current = next;
         }
         traverse(previous);
+        return previous;
     }
 
     //Interview Cake - https://www.interviewcake.com/question/java/reverse-linked-list
