@@ -1,5 +1,8 @@
 package com.shiva.leet;
 
+
+import com.shiva.common.ListNode;
+
 //https://leetcode.com/problems/add-two-numbers/
 public class AddTwoNumbers {
 
@@ -58,11 +61,4 @@ public class AddTwoNumbers {
 //	}
 }
 
-class ListNode {
-	int val;
-	ListNode next;
 
-	ListNode(int x) {
-		val = x;
-	}
-}
