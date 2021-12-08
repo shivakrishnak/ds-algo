@@ -34,9 +34,4 @@ public class TournamentWinner {
         return winner;
     }
 
-    @Test
-    public void test() {
-        Assertions.assertSame("Python", new TournamentWinner().tournamentWinner(new ArrayList<>()));
-    }
-    }
 }
