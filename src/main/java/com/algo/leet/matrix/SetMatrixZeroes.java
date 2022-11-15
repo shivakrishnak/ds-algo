@@ -29,6 +29,16 @@ public class SetMatrixZeroes {
     }
 
     private void setZeroInMatrix(int[][] matrix, int[] row, int[] col) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (row[i] == -1 || col[j] == -1) {
+                    matrix[i][j] = 0;
+                }
+            }
+        }
+    }
+
+    private void setZeroInMatrix1(int[][] matrix, int[] row, int[] col) {
         for (int k = 0; k < row.length; k++) {
             if (row[k] == -1) {
                 for (int i = 0; i < matrix[0].length; i++) {
