@@ -12,7 +12,6 @@ public class TwoSum {
 		for (int i = 0; i < res.length; i++) {
 			System.out.println(res[i]);
 		}
-
 	}
 
 	public int[] twoSum(int[] nums, int target) {
