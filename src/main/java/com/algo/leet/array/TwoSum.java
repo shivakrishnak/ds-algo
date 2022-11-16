@@ -1,4 +1,4 @@
-package com.algo.leet;
+package com.algo.leet.array;
 
 import java.util.HashMap;
 import java.util.Map;
