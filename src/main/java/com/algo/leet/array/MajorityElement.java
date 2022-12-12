@@ -6,8 +6,8 @@ import java.util.Map;
 public class MajorityElement {
 
     public static void main(String[] args) {
-        int[] h = {2,2,1,1,1,2,2};
-        int[] h1 = {3,2,3};
+        int[] h = {2, 2, 1, 1, 1, 2, 2};
+        int[] h1 = {3, 2, 3};
         System.out.println(new MajorityElement().majorityElement(h1));
     }
 
