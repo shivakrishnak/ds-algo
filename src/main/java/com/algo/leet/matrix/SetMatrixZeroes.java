@@ -3,6 +3,8 @@ package com.algo.leet.matrix;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.algo.util.Helper.printMatrix;
+
 //https://leetcode.com/problems/set-matrix-zeroes/
 public class SetMatrixZeroes {
     public static void main(String[] args) {
@@ -54,18 +56,4 @@ public class SetMatrixZeroes {
             }
         }
     }
-
-    public static void printMatrix(int matrix[][]) {
-        for (int i = 0; i < matrix.length; i++) {
-            // length returns number of rows
-            for (int j = 0; j < matrix[i].length; j++) {
-                // here length returns number of columns corresponding to current row
-                // using tabs for equal spaces, looks better aligned
-                // matrix[i][j] will return each element placed at row ‘i',column 'j'
-                System.out.print(matrix[i][j] + "\t");
-            }
-            System.out.println();
-        }
-    }
-
 }
