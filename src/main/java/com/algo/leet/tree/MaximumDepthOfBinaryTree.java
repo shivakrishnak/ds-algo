@@ -1,17 +1,18 @@
 package com.algo.leet.tree;
 
-class MaximumDepthofBinaryTree {
+class MaximumDepthOfBinaryTree {
 
 
     public static void main(String[] args) {
-        MaximumDepthofBinaryTree sol = new MaximumDepthofBinaryTree();
+        MaximumDepthOfBinaryTree sol = new MaximumDepthOfBinaryTree();
         TreeNode input = TreeNodeUtil.getRightSkewBinaryTree1();
         TreeNodeUtil.print("Input", input, true);
         int height = sol.maxDepth(input);
         System.out.println("MaxDepth: " + height);
     }
+
     public int maxDepth(TreeNode root) {
-        if(root == null) return 0;
+        if (root == null) return 0;
         int left = maxDepth(root.left);
         System.out.println("left:" + left);
         int right = maxDepth(root.right);
